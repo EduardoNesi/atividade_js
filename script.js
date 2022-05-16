@@ -42,3 +42,10 @@ function atividade_05_botao(){
     var conversao = (celsius * 1.8) + 32;
     window.alert("A temperatura convertida em Fahrenheit é " + conversao + " ºF");
 }
+function atividade_06_botao(){
+    var r$ = Number(window.prompt("Valor em Reais"));
+    var dolar = Number(window.prompt("Cotação do dolar atual"));
+    var conversao = r$ / dolar;
+    window.alert("Sua conversão em dólar é " + conversao);
+    document.getElementById("info").innerHTML = "Sua conversão em dólar é " + conversao;
+}

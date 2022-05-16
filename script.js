@@ -78,9 +78,10 @@ function zerar(){
 }
 function atividade_10_botao(){
     numero = Number(window.prompt("Digite um número"));
-    quadrado = numero * 2;
-    cubo = numero * 3;
-    Math.sqrt = numero;
-    Math.cbrt = numero;
-    window.alert("o numero digitado foi" + numero + " a raiz quadrada é " + quadrado + ". O cubo é " + cubo)
+    quadrado = numero * numero;
+    cubo = numero * numero * numero;
+    resultado = Math.sqrt(numero);
+    resultadocubico = Math.cbrt(numero);
+    window.alert("o número digitado foi " + numero + ". O quadrado é " + quadrado + ". O cubo é " + cubo + ". A raiz quadrada é " + resultado + ". A raiz cubica é " + resultadocubico);
+    document.getElementById("info").innerHTML = "o número digitado foi " + numero + ". O quadrado é " + quadrado + ". O cubo é " + cubo + ". A raiz quadrada é " + resultado + ". A raiz cubica é " + resultadocubico;
 }

@@ -49,3 +49,12 @@ function atividade_06_botao(){
     window.alert("Sua conversão em dólar é " + conversao);
     document.getElementById("info").innerHTML = "Sua conversão em dólar é " + conversao;
 }
+function atividade_07_botao(){
+    var produto = (window.prompt("Nome do produto"));
+    var preco = Number(window.prompt("Preço do produto"));
+    var porcetagem = 10;
+    var desconto = preco / porcetagem;
+    var valorcomdesconto = preco - desconto;
+    window.alert("Você comprou um produto " + produto + " por " + preco + " e acaba de ganhar um desconto de 10%. Assim você vai pagar apenas R$" + valorcomdesconto + " pelo seu produto. Volte sempre!");
+    document.getElementById("info").innerHTML = "Você comprou um produto " + produto + " por " + preco + " e acaba de ganhar um desconto de 10%. Assim você vai pagar apenas R$" + valorcomdesconto + " pelo seu produto. Volte sempre!";
+}

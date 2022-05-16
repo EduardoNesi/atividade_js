@@ -58,3 +58,29 @@ function atividade_07_botao(){
     window.alert("Você comprou um produto " + produto + " por " + preco + " e acaba de ganhar um desconto de 10%. Assim você vai pagar apenas R$" + valorcomdesconto + " pelo seu produto. Volte sempre!");
     document.getElementById("info").innerHTML = "Você comprou um produto " + produto + " por " + preco + " e acaba de ganhar um desconto de 10%. Assim você vai pagar apenas R$" + valorcomdesconto + " pelo seu produto. Volte sempre!";
 }
+function atividade_08_botao(){
+    var tempo = Number(window.prompt("Tempo da viagem"));
+    var velocidade = Number(window.prompt("Velocidade média"));
+    var distancia = tempo * velocidade;
+    var litros_usados = distancia / 12;
+    window.alert("Velocidade média é " + velocidade + ". Tempo gasto na viagem é " + tempo + ". Os litros usados são " + litros_usados +".");
+    document.getElementById("info").innerHTML = "Velocidade média é " + velocidade + ". Tempo gasto na viagem é " + tempo + ". Os litros usados são " + litros_usados + ".";
+}
+var soma = 0;
+function ssubmit(){
+    soma = soma + 1;
+    document.getElementById("info").innerHTML = soma;
+}
+function zerar(){
+    soma = 0;
+    document.getElementById("info").innerHTML = soma;
+
+}
+function atividade_10_botao(){
+    numero = Number(window.prompt("Digite um número"));
+    quadrado = numero * 2;
+    cubo = numero * 3;
+    Math.sqrt = numero;
+    Math.cbrt = numero;
+    window.alert("o numero digitado foi" + numero + " a raiz quadrada é " + quadrado + ". O cubo é " + cubo)
+}

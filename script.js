@@ -28,5 +28,5 @@ function atividade_03_botao(){
     var numero = Number( window.prompt("Digite um numero"));
     var numero1 = numero - 1;
     var numero2 = numero + 1;
-    window.alert("O numero informado pelo usuário foi " + numero + ". Antes do número " + numero +  ", temos o número " + numero1 + ". Após o número " + numero + ", temos o número " + numero2 + ".");
+    window.alert("O número informado pelo usuário foi " + numero + ". Antes do número " + numero +  ", temos o número " + numero1 + ". Após o número " + numero + ", temos o número " + numero2 + ".");
 }

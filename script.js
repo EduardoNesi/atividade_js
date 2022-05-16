@@ -30,3 +30,15 @@ function atividade_03_botao(){
     var sucessor = numero + 1;
     window.alert("O número informado pelo usuário foi " + numero + ". Antes do número " + numero +  ", temos o número " + antecessor + ". Após o número " + numero + ", temos o número " + sucessor + ".");
 }
+function atividade_04_botao(){
+    var produto = ( window.prompt("Nome do produto"));
+    var preco = Number( window.prompt("Preço do produto"));
+    var dinheiro = Number(window.prompt("valor em dinheiro entregue ao vendedor"));
+    var resultado = dinheiro-preco;
+    window.alert("“Você comprou um produto " + produto + " por " + preco + " e entregou ao vendedor " + dinheiro + " em dinheiro. Você vai receber R$" + resultado + " de troco. Volte sempre!”.");
+}
+function atividade_05_botao(){
+    var celsius = Number(window.prompt("Temperatura em celsius"));
+    var conversao = (celsius * 1.8) + 32;
+    window.alert("A temperatura convertida em Fahrenheit é " + conversao + " ºF");
+}
